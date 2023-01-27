@@ -1,0 +1,52 @@
+body{
+    background: green;
+}
+
+p{
+    color: white;
+}
+
+div{
+    font-family:monospace;
+    font-size: 10px;
+}
+
+img{
+    height: 100px;
+}
+
+
+@media screen and (min-width: 768px){
+    body{
+        background: blue;
+    }
+    p{
+        color: yellow;
+        font-size: 30px;
+    }
+    div{
+        font-family: cursive;
+    }
+    img{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+
+@media screen and (min-width: 1200px){
+    body{
+        background: red;
+    }
+    p{
+        color: blue;
+        font-size: 50px;
+    }
+    div{
+        font-family: fantasy;
+    }
+    img{
+        width: 500px;
+        height: 500px;
+    }
+}

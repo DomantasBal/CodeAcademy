@@ -1,0 +1,48 @@
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background: grey;
+    height: 90vh;
+    justify-items: center;
+}
+
+.shape{
+    background: blue;
+    width: 30px;
+    height: 100px;
+}
+
+
+.shape:nth-child(1){
+    justify-self: end;
+    align-self: end;
+    background: orangered;
+    height: 300px;
+}
+
+.shape:nth-child(2){
+    justify-self: center;
+    align-self: start;
+    background: green;
+    height: 600px;
+}
+
+.shape:nth-child(3){
+    justify-self: start;
+    height: 200px;
+}
+
+.shape:nth-child(4){
+    justify-self: center;
+    align-self: center;
+    background: yellow;
+    height: 400px;
+}
+
+.shape:nth-child(5){
+    justify-self: center;
+    align-self: end;
+    background: orange;
+    height: 50px;
+}

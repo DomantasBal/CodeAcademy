@@ -1,0 +1,38 @@
+#wrap{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    height: 90vh;
+}
+
+.container{
+    background:gold;
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.shape{ 
+    background: brown;
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+
+}
+
+.shape2{ 
+    background: brown;
+    width: 400px;
+    height: 50px;
+    margin: 20px;
+
+}
+
+.span{
+    grid-column: span 2;
+}

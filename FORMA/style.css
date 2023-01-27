@@ -1,0 +1,49 @@
+label::after{
+    content:"*";
+}
+
+
+
+.form-container{
+    width: 600px;
+    height: 600px;
+    border: 2px solid rgba(122, 122, 122, 0.8);
+    border-radius: 12px;
+}
+
+
+h1, h2, p{
+    margin-left: 20px;
+
+}
+
+div{
+    margin-bottom: 20px;
+}
+
+
+input{
+    width: 300px;
+    float: right;
+    margin-right: 40px;
+    margin-left: 0px;
+    padding-left: 0px;
+
+}
+
+label{
+    margin-left: 130px;
+}
+
+.line{
+    margin: 20px;
+    margin-top: 40px;
+    width: 80%;
+    border-bottom: 2px solid rgba(122, 122, 122, 0.8);
+}
+
+
+select{
+    width: 150px;
+
+}

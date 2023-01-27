@@ -1,0 +1,51 @@
+html{
+  background: grey;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-container{
+  background: rgb(5, 118, 255);
+  border-radius: 22px;
+  width: 600px;
+  height: auto;
+  border: 3px solid black;
+}
+
+h1 {
+  margin-left: 30px;
+}
+
+.info {
+  background: blue;
+
+}
+
+/* INFO */
+.info ul {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top:20px;
+}
+
+/* IMG */
+.info img {
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  vertical-align: middle;
+}
+
+.img-container{
+  display: inline-block;
+  padding-left: 136px;
+  /* float: right; */
+}
+
+.info li {
+  list-style-type: none;
+  color: white;
+}
+
+h2 {
+  padding-left: 20px;
+  font-weight: 400;
+}

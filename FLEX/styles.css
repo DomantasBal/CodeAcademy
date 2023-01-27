@@ -1,0 +1,74 @@
+.shape{
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin: 10px;
+    align-items: stretch;
+}
+
+div{
+    font-size: 32px;
+    color:white;
+    display: flex;
+    align-items: center;
+}
+
+/* SPACE BETWEEN CONTAINER */
+.first-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* START */
+.container-start{
+    display: flex;
+    justify-content: flex-start;
+}
+/* END */
+.container-end{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+}
+/* CENTER */
+.container-center{
+    justify-content: center;
+}
+/* BETWEEN */
+.container-space-between{
+    justify-content: space-between;
+}
+/* SPACE-AROUND */
+.container-space-around{
+    justify-content: space-around;
+}
+/* SPACE-EVENLY */
+.container-space-evenly{
+    justify-content: space-evenly;
+}
+
+/* ===== COLORS ===== */
+
+.container-start .shape {
+    background:orangered;
+}
+
+.container-end .shape{
+    background: yellowgreen;
+}
+
+.container-center .shape{
+    background: blue;
+}
+
+.container-space-between .shape{
+    background: greenyellow;
+}
+
+.container-space-around .shape{
+    background: pink;
+}
+
+.container-space-evenly .shape{
+    background: green;
+}

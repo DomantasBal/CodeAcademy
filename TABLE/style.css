@@ -1,0 +1,18 @@
+th{
+    padding: 20px;
+}
+
+tr:nth-child(odd) {
+    background-color: #dddddd;
+}
+
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: black;
+    color:white;
+}
