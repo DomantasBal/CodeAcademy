@@ -1,4 +1,18 @@
 //////////////////////////////////////////
+//              Loops                   //
+//////////////////////////////////////////
+
+let number = 0;
+
+for(i=0; i < 5; i++){
+    console.log(number);
+    number += 4;
+}
+
+
+
+
+//////////////////////////////////////////
 //              Ternary Exercise 2      //
 //////////////////////////////////////////
 
@@ -12,13 +26,12 @@
 //     console.log("False")
 // }
 
-// Ternary
-let num1 = 1;
-let num2 = 2;
+// // Ternary
+// let num1 = 1;
+// let num2 = 2;
+// let answer = (num1 < num2) ? "True" : "False";
 
-let answer = (num1 < num2) ? "True" : "False";
-
-console.log(answer);
+// console.log(answer);
 
 
 
