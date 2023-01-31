@@ -2,7 +2,7 @@
 //              Bonus Exercise          //
 //////////////////////////////////////////
 
-let balance = 0.00;
+let balance = 50000;
 let checkBalance = true;
 let isActive = true;
 
@@ -13,20 +13,28 @@ if (checkBalance == true){
 if(isActive && balance > 0){
 
     // YES
-    console.log("Your balance is $ " + balance + "." );
+    console.log(`Your balance is $  ${balance}.` );
+
 
 //NO - 
 }else{
+
     // Is account not active?
     if (!isActive){
-        
+
         //YES
         console.log("Your account is no longer active.")
 
-    //NO - Is balance 0?
+    //NO 
     }else{
+    
+    //Is balance 0?
         if (balance == 0){
+
+        //YES
             console.log("Your account is empty")
+
+        //No 
         }else{
             console.log("Your balance is negative. Please contact bank.")
         }
@@ -35,16 +43,6 @@ if(isActive && balance > 0){
 }else{
     console.log("Thank you. Have a nice day!");
 }
-
-
-
-
-
-
-
-
-
-
 
 
 //////////////////////////////////////////
