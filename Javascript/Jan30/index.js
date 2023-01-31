@@ -1,5 +1,30 @@
 //////////////////////////////////////////
-//              Ternary Exercise          //
+//              Ternary Exercise 2      //
+//////////////////////////////////////////
+
+
+// let num1 = 1;
+// let num2 = 2;
+
+// if (num1 < num2 ){
+//     console.log("True")
+// }else{
+//     console.log("False")
+// }
+
+// Ternary
+let num1 = 1;
+let num2 = 2;
+
+let answer = (num1 < num2) ? "True" : "False";
+
+console.log(answer);
+
+
+
+
+//////////////////////////////////////////
+//              Ternary Exercise        //
 //////////////////////////////////////////
 
 
@@ -12,9 +37,9 @@
 //     b = false;
 // }
 
-// Ternary
-let a = true;
-let b = (a == true) ? true : false;
+////// Ternary ///////
+// let a = true;
+// let b = (a == true) ? true : false;
 
 
 
