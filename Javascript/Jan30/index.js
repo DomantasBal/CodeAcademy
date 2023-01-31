@@ -1,48 +1,69 @@
 //////////////////////////////////////////
+//              Ternary Exercise          //
+//////////////////////////////////////////
+
+
+// let a = true;
+// let b;
+
+// if (a == true){
+//     b = true;
+// }else {
+//     b = false;
+// }
+
+// Ternary
+let a = true;
+let b = (a == true) ? true : false;
+
+
+
+
+//////////////////////////////////////////
 //              Bonus Exercise          //
 //////////////////////////////////////////
 
-let balance = 50000;
-let checkBalance = true;
-let isActive = true;
+// let balance = 50000;
+// let checkBalance = true;
+// let isActive = true;
 
-//Check your balance?
-if (checkBalance == true){
+// //Check your balance?
+// if (checkBalance == true){
 
-//YES - Is account active and balance >0?
-if(isActive && balance > 0){
+// //YES - Is account active and balance >0?
+// if(isActive && balance > 0){
 
-    // YES
-    console.log(`Your balance is $  ${balance}.` );
+//     // YES
+//     console.log(`Your balance is $  ${balance}.` );
 
 
-//NO - 
-}else{
+// //NO - 
+// }else{
 
-    // Is account not active?
-    if (!isActive){
+//     // Is account not active?
+//     if (!isActive){
 
-        //YES
-        console.log("Your account is no longer active.")
+//         //YES
+//         console.log("Your account is no longer active.")
 
-    //NO 
-    }else{
+//     //NO 
+//     }else{
     
-    //Is balance 0?
-        if (balance == 0){
+//     //Is balance 0?
+//         if (balance == 0){
 
-        //YES
-            console.log("Your account is empty")
+//         //YES
+//             console.log("Your account is empty")
 
-        //No 
-        }else{
-            console.log("Your balance is negative. Please contact bank.")
-        }
-    }
-}
-}else{
-    console.log("Thank you. Have a nice day!");
-}
+//         //No 
+//         }else{
+//             console.log("Your balance is negative. Please contact bank.")
+//         }
+//     }
+// }
+// }else{
+//     console.log("Thank you. Have a nice day!");
+// }
 
 
 //////////////////////////////////////////
