@@ -1,22 +1,51 @@
+
+// //////////////////////////////////////////
+// //            Masyvai - Arrays          //
+// //////////////////////////////////////////
+
+let li = document.getElementById ("listas");
+
+let array = ["Apple","Orange", "Cherry"];
+
+let i = 0;
+do{
+    for (let selection of array) {
+        li.textContent = selection;
+    }
+    i++;
+}while(i < 1)
+
+
+
+
+
+
+
+
+// //////////////////////////////////////////
+// //            Masyvai - Arrays          //
+// //////////////////////////////////////////
+
+// let masiv = ["one","two","three","four"];
+
+// console.log(masiv[3]);
+
+
+
+
 //////////////////////////////////////////
 //            DOM MANIPULIACIJA         //
 //////////////////////////////////////////
 
-let header = document.querySelector("h1");
-let text = document.getElementById ("text");
+// let header = document.querySelector("h1");
+// let text = document.getElementById ("text");
 
-// <p>
-text.textContent = "Pakeistas tekstas"
-text.style.fontSize = "64px";
+// // <p>
+// text.textContent = "Pakeistas tekstas"
+// text.style.fontSize = "64px";
 
-// H1
-header.style.color = "red";
-
-
-
-
-
-
+// // H1
+// header.style.color = "red";
 
 
 
