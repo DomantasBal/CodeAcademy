@@ -1,17 +1,51 @@
 //////////////////////////////////////////
+//            DOM MANIPULIACIJA         //
+//////////////////////////////////////////
+
+let header = document.querySelector("h1");
+let text = document.getElementById ("text");
+
+// <p>
+text.textContent = "Pakeistas tekstas"
+text.style.fontSize = "64px";
+
+// H1
+header.style.color = "red";
+
+
+
+
+
+
+
+
+
+//////////////////////////////////////////
 //            Do While, While           //
 //////////////////////////////////////////
 
 
-// While
-let i = 0;
-let number = 0;
+////// DO While ////
 
-while (i < 5) {
-    console.log(number);
-    number += 4;
-    i++;
-}
+// let i = 1;
+
+// do{
+//     console.log("bla bla")
+//     i++;
+// } while(i < 5);
+
+
+
+////// While ////
+
+// let i = 0;
+// let number = 0;
+
+// while (i < 5) {
+//     console.log(number);
+//     number += 4;
+//     i++;
+// }
 
 
 
