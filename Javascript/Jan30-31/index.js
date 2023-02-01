@@ -2,12 +2,12 @@
 //              Loops                   //
 //////////////////////////////////////////
 
-let number = 0;
+// let number = 0;
 
-for(i=0; i < 5; i++){
-    console.log(number);
-    number += 4;
-}
+// for(i=0; i < 5; i++){
+//     console.log(number);
+//     number += 4;
+// }
 
 
 //////////////////////////////////////////
