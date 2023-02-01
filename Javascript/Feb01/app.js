@@ -3,17 +3,18 @@
 // //            Masyvai - Arrays          //
 // //////////////////////////////////////////
 
-let li = document.getElementById ("listas");
+
+let li = document.getElementsByClassName ("item");
 
 let array = ["Apple","Orange", "Cherry"];
 
-let i = 0;
-do{
-    for (let selection of array) {
-        li.textContent = selection;
-    }
-    i++;
-}while(i < 1)
+for(i=0; i < array.length; i++){
+    li[i].innerHTML = array[i];
+}
+
+// Try other method
+
+
 
 
 
