@@ -3,17 +3,17 @@
 // //            Funkcijos                 //
 // //////////////////////////////////////////
 
-let input = "labas";
-labas(input);
+// let input = "labas";
+// labas(input);
 
-function labas (){
+// function labas (){
 
-    if (input == "labas"){
-        console.log("labas");
-    }else{
-        console.log("Viso");
-    }
-}
+//     if (input == "labas"){
+//         console.log("labas");
+//     }else{
+//         console.log("Viso");
+//     }
+// }
 
 
 // //////////////////////////////////////////
@@ -29,7 +29,24 @@ function labas (){
 //     li[i].innerHTML = array[i];
 // }
 
-// // Try other method
+
+//////////// REFACTOR /////////////
+let li = document.getElementsByClassName ("item");
+
+let array = ["Apple","Orange", "Cherry"];
+
+listas(array);
+
+function listas (input){
+for(i=0; i < array.length; i++){
+    li[i].innerHTML = input[i];
+}
+}
+
+
+
+
+// // for let of method
 
 
 
