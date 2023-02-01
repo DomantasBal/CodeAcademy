@@ -31,6 +31,7 @@
 
 
 //////////// REFACTOR /////////////
+
 let li = document.getElementsByClassName ("item");
 
 let array = ["Apple","Orange", "Cherry"];
