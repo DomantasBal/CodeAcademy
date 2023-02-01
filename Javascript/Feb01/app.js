@@ -1,18 +1,35 @@
 
 // //////////////////////////////////////////
+// //            Funkcijos                 //
+// //////////////////////////////////////////
+
+let input = "labas";
+labas(input);
+
+function labas (){
+
+    if (input == "labas"){
+        console.log("labas");
+    }else{
+        console.log("Viso");
+    }
+}
+
+
+// //////////////////////////////////////////
 // //            Masyvai - Arrays          //
 // //////////////////////////////////////////
 
 
-let li = document.getElementsByClassName ("item");
+// let li = document.getElementsByClassName ("item");
 
-let array = ["Apple","Orange", "Cherry"];
+// let array = ["Apple","Orange", "Cherry"];
 
-for(i=0; i < array.length; i++){
-    li[i].innerHTML = array[i];
-}
+// for(i=0; i < array.length; i++){
+//     li[i].innerHTML = array[i];
+// }
 
-// Try other method
+// // Try other method
 
 
 
