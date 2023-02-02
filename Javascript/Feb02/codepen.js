@@ -7,7 +7,7 @@
 
 
 let ball = document.querySelector("#ball");
-ball.style.transition = "1s ease-in";
+ball.style.transition = "1s ease-out";
 
 
 
