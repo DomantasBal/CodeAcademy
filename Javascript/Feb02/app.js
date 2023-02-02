@@ -1,4 +1,37 @@
 // //////////////////////////////////////////
+// //            Forma Js                  //
+// //////////////////////////////////////////
+
+
+// userForm.addEventListener("submit", function onSubmitForm() {
+    //     console.log("Form Submited Successfully!");
+    // });
+    
+    const userForm = document.getElementById("form");
+    userForm.addEventListener("submit", onSubmitForm);
+    
+    let userName = "";
+    let userLastName = "";
+    let here = document.getElementById("here");
+    
+    function onSubmitForm(e) {
+        // Prevent Refresh
+      e.preventDefault();
+    //   Grab inputs by their values
+      userName = e.target.elements.userName.value;
+      userLastName = e.target.elements.userLastName.value;
+
+    //   Console check
+      console.log(userName, userLastName);
+
+    //   print out stuff to web
+      here.textContent = userName + userLastName;
+    }
+
+
+
+
+// //////////////////////////////////////////
 // //            Antra                     //
 // //////////////////////////////////////////
 
