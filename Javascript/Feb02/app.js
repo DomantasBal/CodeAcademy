@@ -6,14 +6,14 @@
 
 
 
-getAge(19);
+getAge(11);
 
 // Ternary versija
 function getAge(ageIn) {
   return ageIn >= 18 ? alert("Galima gerti!") : confirm("Ar tevai leido gerti?");
 }
 
-// pirma versija
+// pirma normali versija
 
 // function getAge (ageIn){
 //   if(ageIn >= 18){
