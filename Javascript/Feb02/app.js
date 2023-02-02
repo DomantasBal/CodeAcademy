@@ -3,16 +3,11 @@
 // //////////////////////////////////////////
 
 
-let figura = document.querySelector(".figura");
+// let figura = document.querySelector(".figura");
 
-figura.addEventListener('mouseover', function() {
-    figura.style.display = 'none';
-  });
-
-
-
-
-
+// figura.addEventListener('mouseover', function() {
+//     figura.style.display = 'none';
+//   });
 
 
 
