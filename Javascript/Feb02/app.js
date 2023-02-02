@@ -1,17 +1,39 @@
 
 // //////////////////////////////////////////
+// //            Anon function             //
+// //////////////////////////////////////////
+
+// arrow funkcijos yra anonimines
+
+// Parasyti veliau arrow funcija cia pabandyti
+
+// document.addEventListener("click", myfunction);
+
+// function myfunction(){
+//   document.querySelector("#funBtn").textContent = "swx";
+// }
+
+
+// //////////////////////////////////////////
+// //            Event listener-handeler   //
+// //////////////////////////////////////////
+
+// let funBtn = document.getElementById("funBtn").addEventListener("click", function (){
+//   console.log("somehtings");
+// })
+
+
+// //////////////////////////////////////////
 // //            Funcijos Parametrai       //
 // //////////////////////////////////////////
 
-
-
-
-getAge(11);
+// getAge(11);
 
 // Ternary versija
-function getAge(ageIn) {
-  return ageIn >= 18 ? alert("Galima gerti!") : confirm("Ar tevai leido gerti?");
-}
+
+// function getAge(ageIn) {
+//   return ageIn >= 18 ? alert("Galima gerti!") : confirm("Ar tevai leido gerti?");
+// }
 
 // pirma normali versija
 
