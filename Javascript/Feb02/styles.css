@@ -3,3 +3,12 @@
     height: 100px;
     background: gold;
 }
+
+form{
+    margin:20px 0;
+}
+
+label, input {
+    display: block;
+    margin: 10px 0;
+}
