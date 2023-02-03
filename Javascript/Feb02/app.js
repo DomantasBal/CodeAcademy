@@ -2,15 +2,21 @@
 // //            Anon function             //
 // //////////////////////////////////////////
 
-// arrow funkcijos yra anonimines
 
 // Parasyti veliau arrow funcija cia pabandyti
 
-// document.addEventListener("click", myfunction);
+// Arrow
+document.addEventListener("click", () => {
+document.querySelector("#funBtn").textContent = "swx";
+});
 
-// function myfunction(){
-//   document.querySelector("#funBtn").textContent = "swx";
-// }
+
+// Normal
+document.addEventListener("click", myfunction);
+
+function myfunction(){
+  document.querySelector("#funBtn").textContent = "swx";
+}
 
 
 // //////////////////////////////////////////
