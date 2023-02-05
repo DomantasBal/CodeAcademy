@@ -8,6 +8,7 @@ const div = document.querySelector(".text");
 
 const p = document.createElement("p");
 
+
 shape.addEventListener("mouseover", () =>{
 
     shape.style.background = "blue";
@@ -24,6 +25,12 @@ shape.addEventListener("mouseout", () =>{
     p.textContent = "MouseOUT";
 
 });
+
+shape.addEventListener("click", () =>{
+    const p = document.createElement("p");
+    p.innerHTML = "Mouse CLICK";
+    document.body.appendChild(p);
+})
 
 
 
