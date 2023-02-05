@@ -1,26 +1,54 @@
-// Ex. NR 9
+// //////////////////////////////////////////
+//             Exercise no. 10             //
+// //////////////////////////////////////////
+
+
+const shape = document.querySelector(".shape");
+const div = document.querySelector(".text");
+
+const p = document.createElement("p");
+
+shape.addEventListener("mouseover", () =>{
+
+    shape.style.background = "blue";
+    shape.style.width = "120px";
+
+    document.body.appendChild(p);
+    p.textContent = "MouseOVER";
+});
+
+
+shape.addEventListener("mouseout", () =>{
+    shape.style.background = "yellow";
+    shape.style.width = "100px";
+    p.textContent = "MouseOUT";
+
+});
 
 
 
-
-let show = () => {
-    console.log("Anonymous function");
-};
-
-show();
+// //////////////////////////////////////////
+//             Exercise no. 9              //
+// //////////////////////////////////////////
 
 
-let add = (a, b) => {return a + b};
+// let show = () => {
+//     console.log("Anonymous function");
+// };
+// show();
 
-console.log(add(2,2));
+
+// let add = (a, b) => {return a + b};
+
+// console.log(add(2,2));
 
 
-/////////// ONE /////////////
+
 // let show = function() {
 //     console.log("Anonymous function");
 //   };
 
-/////////// TWO /////////////
+
 //   let add = function(a, b) {
 //     return a + b;
 //   };
