@@ -2,13 +2,6 @@
 //             Exercise no. 12             //
 // //////////////////////////////////////////
 
-
-
-
-// //////////////////////////////////////////
-//             Exercise no. 11             //
-// //////////////////////////////////////////
-
 // const shape = document.querySelector(".shape");
 // const div = document.querySelector(".text");
 
@@ -33,10 +26,17 @@
 // });
 
 // shape.addEventListener("click", () =>{
-//     const p = document.createElement("p");
 //     p.innerHTML = "Mouse CLICK";
 //     document.body.appendChild(p);
 // })
+
+
+
+// //////////////////////////////////////////
+//             Exercise no. 11             //
+// //////////////////////////////////////////
+
+
 
 
 // //////////////////////////////////////////
@@ -44,38 +44,34 @@
 // //////////////////////////////////////////
 
 
-const shape = document.querySelector(".shape");
-const div = document.querySelector(".text");
+// const shape = document.querySelector(".shape");
+// const div = document.querySelector(".text");
+// const p = document.createElement("p");
 
-const p = document.createElement("p");
+// shape.addEventListener("mouseover", () =>{
 
+//     shape.style.background = "blue";
+//     shape.style.width = "120px";
 
+//     const p = document.createElement("p");
+//     p.innerHTML = "Mouse OVER";
+//     document.body.appendChild(p);
+// });
 
-shape.addEventListener("mouseover", () =>{
+// shape.addEventListener("mouseout", () =>{
+//     shape.style.background = "yellow";
+//     shape.style.width = "100px";
 
-    shape.style.background = "blue";
-    shape.style.width = "120px";
+//     const p = document.createElement("p");
+//     p.innerHTML = "Mouse OUT";
+//     document.body.appendChild(p);
+// });
 
-    const p = document.createElement("p");
-    p.innerHTML = "Mouse OVER";
-    document.body.appendChild(p);
-});
-
-
-shape.addEventListener("mouseout", () =>{
-    shape.style.background = "yellow";
-    shape.style.width = "100px";
-
-    const p = document.createElement("p");
-    p.innerHTML = "Mouse OUT";
-    document.body.appendChild(p);
-});
-
-shape.addEventListener("click", () =>{
-    const p = document.createElement("p");
-    p.innerHTML = "Mouse CLICK";
-    document.body.appendChild(p);
-})
+// shape.addEventListener("click", () =>{
+//     const p = document.createElement("p");
+//     p.innerHTML = "Mouse CLICK";
+//     document.body.appendChild(p);
+// })
 
 
 
