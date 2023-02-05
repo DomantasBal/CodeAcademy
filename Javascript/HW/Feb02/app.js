@@ -1,4 +1,45 @@
 // //////////////////////////////////////////
+//             Exercise no. 12             //
+// //////////////////////////////////////////
+
+
+
+
+// //////////////////////////////////////////
+//             Exercise no. 11             //
+// //////////////////////////////////////////
+
+// const shape = document.querySelector(".shape");
+// const div = document.querySelector(".text");
+
+// const p = document.createElement("p");
+
+
+// shape.addEventListener("mouseover", () =>{
+
+//     shape.style.background = "blue";
+//     shape.style.width = "120px";
+
+//     document.body.appendChild(p);
+//     p.textContent = "MouseOVER";
+// });
+
+
+// shape.addEventListener("mouseout", () =>{
+//     shape.style.background = "yellow";
+//     shape.style.width = "100px";
+//     p.textContent = "MouseOUT";
+
+// });
+
+// shape.addEventListener("click", () =>{
+//     const p = document.createElement("p");
+//     p.innerHTML = "Mouse CLICK";
+//     document.body.appendChild(p);
+// })
+
+
+// //////////////////////////////////////////
 //             Exercise no. 10             //
 // //////////////////////////////////////////
 
@@ -9,21 +50,25 @@ const div = document.querySelector(".text");
 const p = document.createElement("p");
 
 
+
 shape.addEventListener("mouseover", () =>{
 
     shape.style.background = "blue";
     shape.style.width = "120px";
 
+    const p = document.createElement("p");
+    p.innerHTML = "Mouse OVER";
     document.body.appendChild(p);
-    p.textContent = "MouseOVER";
 });
 
 
 shape.addEventListener("mouseout", () =>{
     shape.style.background = "yellow";
     shape.style.width = "100px";
-    p.textContent = "MouseOUT";
 
+    const p = document.createElement("p");
+    p.innerHTML = "Mouse OUT";
+    document.body.appendChild(p);
 });
 
 shape.addEventListener("click", () =>{
