@@ -9,12 +9,15 @@ let obj = {
     "birthday": true,
     "totalToys": 3,
     "friends": {
-        "Antanas":  {
-            "isPlaying": "playing with ball"
-        },
-        "Petras":  {
-            "isPlaying": "playing with horse"
+        "name": {
+            "Antanas": {
+                "isPlaying": "playing with ball"
+            },
+            "Petras":  {
+                "isPlaying": "playing with horse"
+            }
         }
+
     }
 }
 
@@ -24,9 +27,10 @@ let obj = {
         obj.yearsOld = 6;
         obj.totalToys = obj.toysArray.lenght;
 
-        console.log(obj.friends);
-        console.log(obj.friends.isPlaying);
-        
+        // console.log(obj.friends);
+        console.log(obj.friends.name);
+        console.log(obj.friends.name.Antanas);
+        console.log(obj.friends.name.Petras);
     }
 
 
