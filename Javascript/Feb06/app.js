@@ -6,15 +6,19 @@ let inputField = document.getElementById("number");
 let inputValue = inputField.value;
 
 inputField.addEventListener("blur", function () {
+    
   let inputValue = inputField.value;
   if (!isNaN(inputValue) && inputValue >= 0 && inputValue <= 99) {
-    green();
+    greenAlert();
   } else {
     red();
   }
 });
 
-function green (){
+
+
+
+function greenAlert (){
     let green = document.createElement("div");
     green.textContent = "Tai yra skaicius tarp 0 ir 99";
 
@@ -33,6 +37,7 @@ function green (){
         green.remove();
       });
 }
+
 
 function red (){
     let red = document.createElement("div");
