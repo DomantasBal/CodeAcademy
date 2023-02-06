@@ -8,30 +8,33 @@ let obj = {
     "yearsOld": 5,
     "birthday": true,
     "totalToys": 3,
-    "friends": {
-        "name": {
-            "Antanas": {
-                "isPlaying": "playing with ball"
+    "friends": [
+            {
+                name: "Arturas",
+                doing: "running"
             },
-            "Petras":  {
-                "isPlaying": "playing with horse"
+            {
+                name: "Povilas",
+                doing: "Sleeping"
             }
-        }
+    ]
 
     }
-}
 
-    if(obj.birthday == true){
+
+    if(obj.birthday === true){
         obj.toysArray.shift();
         obj.toysArray.push("NEW TOY");
         obj.yearsOld++;
-        obj.totalToys = obj.toysArray.lenght;
+        obj.totalToys = obj.toysArray.length;
 
-        // console.log(obj.friends);
-        console.log(obj.friends.name);
-        console.log(obj.friends.name.Antanas);
-        console.log(obj.friends.name.Petras);
+        console.log(obj.friends[0].name, obj.friends[0].doing);
+        console.log(obj.friends[1].name, obj.friends[1].doing);
+
+
+
     }
+
 
 
 
