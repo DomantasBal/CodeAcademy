@@ -38,6 +38,64 @@
 
 
 
+function collectInput () {
+
+    let id = prompt("Select Paragraph (a b c d)");
+    // viska i lowercase kad tiktu ir didelios raides
+    id = id.toLowerCase();
+
+    if (id == "a"){
+        writeText();
+    }else if (id == "b"){
+        writeText();
+    }else if (id == "c"){
+        writeText();
+    }else if (id == "d"){   
+        writeText();
+    }else {
+        alert("Sorry wrong selection")
+    }
+
+    // Not sure kaip geriau ar if ar case sitam
+
+    // switch (id){
+    // case "a": writeText();
+    // break;
+    // case "a": writeText();
+    // break;
+    // case "a": writeText();
+    // break;
+    // case "a": writeText();
+    // break;
+
+    // default:   alert("Sorry wrong selection");
+    // }
+
+
+
+    function writeText (){
+
+        let text = prompt("Type Text");
+        let p = document.getElementById (id);
+    
+        p.textContent = text;
+        let countClicks = 0;
+    
+        p.addEventListener("click", () => {
+          countClicks++;
+        
+          if (countClicks % 2 === 0) {
+            p.textContent = "Clicked!"
+          } else {
+            p.textContent = text;
+          }
+        });
+    }
+}
+
+
+
+
 
 // //////////////////////////////////////////
 //             Exercise no. 10             //
