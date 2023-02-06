@@ -12,7 +12,7 @@ const person = {
 }
 
 person.name = "Stefanija"
-person.age = Math.round(Math.random() * 80)
+person.age = Math.floor(Math.random() * (80 - 20 + 1) + 20);
 
 if (person.age < 100){
     person.alive = true;
