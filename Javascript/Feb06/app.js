@@ -24,7 +24,7 @@ let obj = {
     if(obj.birthday == true){
         obj.toysArray.shift();
         obj.toysArray.push("NEW TOY");
-        obj.yearsOld = 6;
+        obj.yearsOld++;
         obj.totalToys = obj.toysArray.lenght;
 
         // console.log(obj.friends);
