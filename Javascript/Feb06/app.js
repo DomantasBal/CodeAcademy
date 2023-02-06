@@ -22,13 +22,15 @@ function greenAlert (){
     let green = document.createElement("div");
     green.textContent = "Tai yra skaicius tarp 0 ir 99";
 
-    green.style.background = "rgb(23, 255, 23)";
+    green.style.background = "lightgreen";
     green.style.height = "50px";
     green.style.width = "100%";
     green.style.marginBottom = "20px"
     green.style.display = "flex"
     green.style.alignItems = "center"
     green.style.padding = "10px"
+    green.style.color = "green"
+
 
     let form = document.querySelector("form");
     form.prepend(green);
@@ -43,13 +45,14 @@ function red (){
     let red = document.createElement("div");
     red.textContent = "Tai yra ne skaicius arba mazesnis uz 0 arba didesnis uz 99 jus ivedete sf";
 
-    red.style.background = "red";
+    red.style.background = "#FFCCCB";
     red.style.height = "auto";
     red.style.width = "100%";
     red.style.marginTop = "20px"
     red.style.display = "flex"
     red.style.alignItems = "center"
     red.style.padding = "10px"
+    red.style.color = "red"
 
 
     let form = document.querySelector("form");
