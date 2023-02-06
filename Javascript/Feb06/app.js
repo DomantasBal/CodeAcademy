@@ -1,7 +1,9 @@
+// //////////////////////////////////////////
+//             Exercise no. 1             //
+// //////////////////////////////////////////
+
 let inputField = document.getElementById("number");
 let inputValue = inputField.value;
-
-
 
 inputField.addEventListener("blur", function () {
   let inputValue = inputField.value;
@@ -11,23 +13,6 @@ inputField.addEventListener("blur", function () {
     red();
   }
 });
-
-
-
-
-
-// if ( inputValue <= 99 && inputValue >= 0) {
-//     green();
-// } else {
-//     red();
-// }
-
-
-
-
-
-
-
 
 function green (){
     let green = document.createElement("div");
