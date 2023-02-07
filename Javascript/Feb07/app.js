@@ -37,16 +37,16 @@ const btnPop = document.querySelector("#pop")
 const btnShift = document.querySelector("#last")
 
 
+/////////////////// CONTENT
 let p = document.createElement ("p");
-
-let array = [" Vienas", "Du", "Trys", "Keturi"]
-
+let array = ["Vienas", "Du", "Trys", "Keturi"]
 
 
 
 function add(){
     array.unshift(input.value)
     document.body.append(array);
+
 }
 
 function push(){
