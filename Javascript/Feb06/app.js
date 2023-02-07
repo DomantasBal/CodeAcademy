@@ -4,22 +4,24 @@
 
 // EXERCISE 2
 
-const person = {
-    name: "Rosa",
-    age: 120,
-    alive: false,
-    interests: ["swimming", "cards"]
-}
+// const person = {
+//     name: "Rosa",
+//     age: 120,
+//     alive: false,
+//     interests: ["swimming", "cards"]
+// }
 
-person.name = "Stefanija"
-person.age = Math.floor(Math.random() * (80 - 20 + 1) + 20);
+// person.name = "Stefanija"
 
-if (person.age < 100){
-    person.alive = true;
-    person.interests.push("Enjoying life");
-   }
+// // Google why this math just for fun not getting the math here 
+// person.age = Math.floor(Math.random() * (80 - 20 + 1) + 20);
 
-   console.log(person);
+// if (person.age < 100){
+//     person.alive = true;
+//     person.interests.push("Enjoying life");
+//    }
+
+//    console.log(person);
 
 
 
@@ -28,35 +30,35 @@ if (person.age < 100){
 
 // EXERCISE 1
 
-// let obj = {
-//     "name": "Jonas",
-//     "toysArray": ["horse", "ball", "nerf"],
-//     "yearsOld": 5,
-//     "birthday": true,
-//     "totalToys": 3,
-//     "friends": [
-//             {
-//                 name: "Arturas",
-//                 doing: "running"
-//             },
-//             {
-//                 name: "Povilas",
-//                 doing: "Sleeping"
-//             }
-//     ]
-//     }
+let obj = {
+    name: "Jonas",
+    toysArray: ["horse", "ball", "nerf"],
+    yearsOld: 5,
+    birthday: true,
+    totalToys: 3,
+    friends: [
+            {
+                name: "Arturas",
+                doing: "running"
+            },
+            {
+                name: "Povilas",
+                doing: "Sleeping"
+            }
+    ]
+    }
 
 
-    // if(obj.birthday === true){
-    //     obj.toysArray.shift();
-    //     obj.toysArray.push("NEW TOY");
-    //     obj.yearsOld++;
-    //     obj.totalToys = obj.toysArray.length;
+    if(obj.birthday === true){
+        obj.toysArray.shift();
+        obj.toysArray.push("NEW TOY");
+        obj.yearsOld++;
+        obj.totalToys = obj.toysArray.length;
 
-    //     console.log(obj.friends[0].name, obj.friends[0].doing);
-    //     console.log(obj.friends[1].name, obj.friends[1].doing);
+        console.log(obj.friends[0].name, obj.friends[0].doing);
+        console.log(obj.friends[1].name, obj.friends[1].doing);
 
-    // }
+    }
 
 
 
