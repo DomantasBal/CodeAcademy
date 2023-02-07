@@ -1,5 +1,22 @@
 // //////////////////////////////////////////
-//                  Uzduotis               //
+//                  Arrays change          //
+// //////////////////////////////////////////
+
+
+
+let masyvas = ["vienas", "du", "trys","keturi", "penki", "sesi"]
+
+
+masyvas.splice(1 , 1, "let's")
+masyvas.splice(2 , 1, "Dance")
+
+let joined = masyvas.join(", ");
+console.log(masyvas);
+
+
+
+// //////////////////////////////////////////
+//                  1h Uzduotis            //
 // //////////////////////////////////////////
 
 
