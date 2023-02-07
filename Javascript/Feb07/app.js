@@ -3,15 +3,40 @@
 // //////////////////////////////////////////
 
 
-let first = ["spliece", "spice", "concat"];
-let second = [ "push", "pop", "shift", "unshift"];
 
-let obj = {
-    subject: "methods"
+let akordai = [ "D", "G", "C7", "F"]
+
+for (i=0; i < akordai.length; i++){
+    if(!akordai[i].includes('7')){
+        akordai[i] += '7'
+    }
 }
+console.log(akordai);
 
-let sujungtas = first.concat(second, "leght", "7", obj)
-console.log(sujungtas);
+
+
+// function checkAkordai(akordai){
+//     for (let check of akordai){
+//         if(!check.includes('7')){
+//             return akordai[check] + '7'
+//         }
+//     }
+    
+// }
+// console.log(akordai);
+
+
+
+
+// let first = ["spliece", "spice", "concat"];
+// let second = [ "push", "pop", "shift", "unshift"];
+
+// let obj = {
+//     subject: "methods"
+// }
+
+// let sujungtas = first.concat(second, "leght", "7", obj)
+// console.log(sujungtas);
 
 
 // let masyvas = ["vienas", "du", "trys","keturi", "penki", "sesi"]
