@@ -1,10 +1,6 @@
 // //////////////////////////////////////////
 //                                         //
 // //////////////////////////////////////////
-const btnAdd = document.querySelector("#add")
-const btnPush = document.querySelector("#push")
-const btnPop = document.querySelector("#pop")
-const btnShift = document.querySelector("#last")
 
 
 // Input element
@@ -35,17 +31,20 @@ buttonLast.id = "last";
 buttonLast.innerText = "Isimti pirma";
 buttonLast.onclick = last;
 
+const btnAdd = document.querySelector("#add")
+const btnPush = document.querySelector("#push")
+const btnPop = document.querySelector("#pop")
+const btnShift = document.querySelector("#last")
+
 
 let p = document.createElement ("p");
 
-let array = ["   Vienas", "Du", "Trys", "Keturi"]
+let array = [" Vienas", "Du", "Trys", "Keturi"]
 
 
 
 
 function add(){
-
-
     array.unshift(input.value)
     document.body.append(array);
 }
@@ -64,6 +63,20 @@ function last(){
     array.shift(input.value)
     document.body.append(array);
 }
+
+// Styles for elements
+input.style.margin = "20px";
+
+let buttonsArray = [buttonAdd,buttonPush,buttonPop,buttonLast]
+
+// Set Styles for all buttons no repetition try
+for (let button of buttonsArray){
+        button.style.padding = "20px 60px";
+        button.style.margin = "10px";
+}
+
+
+
 
 
 //Rodyti elementus
