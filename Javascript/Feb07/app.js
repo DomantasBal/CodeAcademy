@@ -4,14 +4,26 @@
 
 
 
-let akordai = [ "D", "G", "C7", "F"]
+// Padaryti uzduoti "FOR EACH PRACTICE TIME" uzduoti
+let numbers = [5, 1, 7, 2, -9, 8, 2, 7, 9, 4, -5, 2, -6, 8, -4, 6];
 
-for (i=0; i < akordai.length; i++){
-    if(!akordai[i].includes('7')){
-        akordai[i] += '7'
-    }
-}
-console.log(akordai);
+
+
+
+
+
+
+
+
+
+// let akordai = [ "D", "G", "C7", "F"]
+
+// for (i=0; i < akordai.length; i++){
+//     if(!akordai[i].includes('7')){
+//         akordai[i] += '7'
+//     }
+// }
+// console.log(akordai);
 
 
 
