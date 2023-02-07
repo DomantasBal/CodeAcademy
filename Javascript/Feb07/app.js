@@ -1,71 +1,68 @@
 // //////////////////////////////////////////
-//                                         //
+//                  Uzduotis               //
 // //////////////////////////////////////////
 
 
-// Input element
+// Create Input element
 let input = document.createElement ("input");
 input.type = "text";
 
+///////Buttons
+
 // BUTTON Prideti
 let buttonAdd = document.createElement("button");
-buttonAdd.id = "add";
 buttonAdd.innerText = "Prideti";
 buttonAdd.onclick = add;
 
 // BUTTON Prideti i gala
 let buttonPush = document.createElement("button");
-buttonPush.id = "push";
 buttonPush.innerText = "Prideti i gala";
 buttonPush.onclick = push;
 
 //BUTTON Isimti paskutini
 let buttonPop = document.createElement("button");
-buttonPop.id = "pop";
 buttonPop.innerText = "Isimti paskutini";
 buttonPop.onclick = pop;
 
 //BUTTON Isimti pirma
 let buttonLast = document.createElement("button");
-buttonLast.id = "last";
 buttonLast.innerText = "Isimti pirma";
 buttonLast.onclick = last;
-
-const btnAdd = document.querySelector("#add")
-const btnPush = document.querySelector("#push")
-const btnPop = document.querySelector("#pop")
-const btnShift = document.querySelector("#last")
 
 
 /////////////////// CONTENT
 let p = document.createElement ("p");
-let array = ["Vienas", "Du", "Trys", "Keturi"]
-
+let array = ["Vienas", "Du", "Trys", "Keturi"];
 
 
 function add(){
-    array.unshift(input.value)
-    document.body.append(array);
-
+    array.unshift(input.value);
+    p.textContent = array;
+    document.body.append(p);
 }
 
 function push(){
-    array.push(input.value)
-    document.body.append(array);
+    array.push(input.value);
+    p.textContent = array;
+    document.body.append(p);
 }
 
 function pop(){
-    array.pop(input.value)
-    document.body.append(array);
+    array.pop(input.value);
+    p.textContent = array;
+    document.body.append(p);
 }
 
 function last(){
-    array.shift(input.value)
-    document.body.append(array);
+    array.shift(input.value);
+    p.textContent = array;
+    document.body.append(p);
 }
 
-// Styles for elements
+// Input Styles
 input.style.margin = "20px";
+input.style.height = "30px";
+input.style.borderRadius = "12px";
 
 let buttonsArray = [buttonAdd,buttonPush,buttonPop,buttonLast]
 
@@ -73,14 +70,23 @@ let buttonsArray = [buttonAdd,buttonPush,buttonPop,buttonLast]
 for (let button of buttonsArray){
         button.style.padding = "20px 60px";
         button.style.margin = "10px";
+        button.style.borderRadius = "12px";
 }
 
+// Paragraph Styles
+p.style.color = "white";
+p.style.fontSize = "3rem";
+p.style.fontFamily = "Arial";
+p.style.background = "#303030";
+
+// DOM styling
+document.body.style.background = "#808080";
 
 
-
-
-//Rodyti elementus
+/////////////////////Rodyti elementus
 document.body.append(input, buttonAdd,buttonPush,buttonPop,buttonLast)
+
+
 
 
 
