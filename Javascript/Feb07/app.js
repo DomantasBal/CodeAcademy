@@ -4,9 +4,7 @@
 
 
 let first = ["spliece", "spice", "concat"];
-
 let second = [ "push", "pop", "shift", "unshift"];
-
 
 let obj = {
     subject: "methods"
