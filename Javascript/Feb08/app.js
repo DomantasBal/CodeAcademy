@@ -4,33 +4,63 @@
 
 
 //pirmai uzduociai
+
 let numbers = [5, 1, 7, 2, -9, 8, 2, 7, 9, 4, -5, 2, -6, 8, -4, 6];
+console.log(arrCountTwos(numbers, 2)); // viso: 3
+
+function arrCountTwos(numbers, target) {
+    return numbers.filter(num => num === target).length;
+  }
 
 
-//antra uzduotis
-const budgets = [
-  {
-    name: "Rytis",
-    budget: 50,
-  },
-  {
-    name: "Saulė",
-    budget: 230,
-  },
-  {
-    name: "Paulius",
-    budget: 1500,
-  },
-  {
-    name: "Gytis",
-    budget: 92,
-  },
-  {
-    name: "Sandra",
-    budget: 7,
-  },
-];
+// //antra uzduotis
+// const budgets = [
+//   {
+//     name: "Rytis",
+//     budget: 50,
+//   },
+//   {
+//     name: "Saulė",
+//     budget: 230,
+//   },
+//   {
+//     name: "Paulius",
+//     budget: 1500,
+//   },
+//   {
+//     name: "Gytis",
+//     budget: 92,
+//   },
+//   {
+//     name: "Sandra",
+//     budget: 7,
+//   },
+// ];
 
+
+
+//reikia papildyti rytoj
+
+// function isPersonInArray(names, name) {
+//     if (names.includes(name)) {
+//       if (name.endsWith("s")) {
+//         console.log(`Welcome Mr. ${name}`);
+//       } else {
+//         console.log(`Welcome Miss. ${name}`);
+//       }
+//     } else {
+//       console.log(`Unfortunately ${name} is not in our list.`);
+//     }
+//   }
+
+  
+//   const input = document.querySelector('input');
+// const persons = ['John', 'Jane', 'James', 'Joan'];
+
+// input.addEventListener('blur', function() {
+//   const name = this.value;
+//   isPersonInArray(persons, name);
+// });
 
 
 /////////////////////////////////////////////////////////////////
