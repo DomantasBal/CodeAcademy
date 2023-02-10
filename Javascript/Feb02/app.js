@@ -140,7 +140,18 @@
 let forma = document.querySelector("form");
 forma.addEventListener("submit", event => {
   event.preventDefault();
-  let inputName = document.getElementById("name");
-  forma.append(inputName.value);
-  
+  let formInputs = event.target.elements;
+  let nameInput = formInputs.name;
+  console.log(nameInput.value);
 });
+
+
+let form = document.querySelector("form");
+form.addEventListener("submit", event => {
+  event.preventDefault();
+  let formInputs = event.target.elements;
+  let nameInput = formInputs.name;
+  console.log(nameInput.value);
+});
+
+
