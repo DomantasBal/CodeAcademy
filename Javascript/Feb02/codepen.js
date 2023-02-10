@@ -6,17 +6,20 @@
 // arba krenta zemyn
 
 
-let ball = document.querySelector("#ball");
-ball.style.transition = "1s ease-out";
+// let ball = document.querySelector("#ball");
+// ball.style.transition = "1s ease-out";
 
 
 
-    document.addEventListener("keyup", function(event) {
-            // ball.style.bottom = "500px";
-        ball.style.bottom = "40px";
-      });
+//     document.addEventListener("keyup", function(event) {
+//             // ball.style.bottom = "500px";
+//         ball.style.bottom = "40px";
+//       });
 
-    document.addEventListener("keydown", function(event) {
-            // ball.style.bottom = "40px";
-      ball.style.bottom = "500px";
-    });
+//     document.addEventListener("keydown", function(event) {
+//             // ball.style.bottom = "40px";
+//       ball.style.bottom = "500px";
+//     });
+
+
+

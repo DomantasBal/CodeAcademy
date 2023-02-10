@@ -2,26 +2,29 @@
 //               MAP Objects arrays        //
 // //////////////////////////////////////////
 
-    
-    const input = document.querySelector('input');
-    const persons = ['John', 'Jane', 'James', 'Joan'];
-    
-    input.addEventListener('blur', function() {
-      const name = this.value;
-      isPersonInArray(persons, name);
-    });
 
-    function isPersonInArray(names, name) {
-        if (names.includes(name)) {
-          if (name.endsWith("s")) {
-            console.log(`Welcome Mr. ${name}`);
-          } else {
-            console.log(`Welcome Miss. ${name}`);
-          }
-        } else {
-          console.log(`Unfortunately ${name} is not in our list.`);
-        }
-      }
+
+
+    
+    // const input = document.querySelector('input');
+    // const persons = ['John', 'Jane', 'James', 'Joan'];
+    
+    // input.addEventListener('blur', function() {
+    //   const name = this.value;
+    //   isPersonInArray(persons, name);
+    // });
+
+    // function isPersonInArray(names, name) {
+    //     if (names.includes(name)) {
+    //       if (name.endsWith("s")) {
+    //         console.log(`Welcome Mr. ${name}`);
+    //       } else {
+    //         console.log(`Welcome Miss. ${name}`);
+    //       }
+    //     } else {
+    //       console.log(`Unfortunately ${name} is not in our list.`);
+    //     }
+    //   }
 
 //pirmai uzduociai
 

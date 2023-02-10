@@ -2,21 +2,20 @@
 // //            Anon function             //
 // //////////////////////////////////////////
 
-
 // Parasyti veliau arrow funcija cia pabandyti
 
 // Arrow
-document.addEventListener("click", () => {
-document.querySelector("#funBtn").textContent = "swx";
-});
+// document.addEventListener("click", () => {
+// document.querySelector("#funBtn").textContent = "swx";
+// });
 
 
 // Normal
-document.addEventListener("click", myfunction);
+// document.addEventListener("click", myfunction);
 
-function myfunction(){
-  document.querySelector("#funBtn").textContent = "swx";
-}
+// function myfunction(){
+//   document.querySelector("#funBtn").textContent = "swx";
+// }
 
 
 // //////////////////////////////////////////
@@ -133,3 +132,14 @@ function myfunction(){
 // function changeText(){
 //     pirmas.textContent = "Pakeistas Tekstas";
 // }
+
+
+
+///// FORMA /////
+
+let forma = document.getElementById("forma");
+
+forma.addEventListener("submit", function (event) {
+  event.preventDefault();
+  console.log("works")
+});
