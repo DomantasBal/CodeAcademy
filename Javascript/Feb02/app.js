@@ -145,5 +145,13 @@ forma.addEventListener("submit", event => {
   console.log(nameInput);
 });
 
+///// Event listeneriai a bit more  /////
+
+let shape = document.querySelector(".shape");
+
+shape.addEventListener("click", (e) =>{
+  console.log(e);
+})
+
 
 
