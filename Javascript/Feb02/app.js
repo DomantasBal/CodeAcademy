@@ -150,7 +150,23 @@ forma.addEventListener("submit", event => {
 let shape = document.querySelector(".shape");
 
 shape.addEventListener("click", (e) =>{
-  console.log(e);
+
+
+  let dot = document.createElement("div");
+  dot.className = "dot";
+  shape.append(dot);
+
+  // console.log(e);
+  // Okay well thats cool!!
+  // console.log(e.clientX); // :)))))
+
+
+  // Lame try to make mini painting app lol 
+  // Probably have to grab position in a loop or something
+  // but meh I'll just continue learning :)
+  if(e.clientX){
+    dot.style.left = e.clientX + "px";
+  } 
 })
 
 

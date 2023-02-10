@@ -1,7 +1,13 @@
 .shape{
-    width: 100px;
-    height: 100px;
+    width: 1000px;
+    height: 1000px;
     background: gold;
+}
+.dot{
+    width: 10px;
+    height: 10px;
+    background: red;
+    position:relative;
 }
 
 form{
