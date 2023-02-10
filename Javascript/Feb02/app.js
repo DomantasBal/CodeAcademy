@@ -137,9 +137,10 @@
 
 ///// FORMA /////
 
-let forma = document.getElementById("forma");
-
-forma.addEventListener("submit", function (event) {
+let forma = document.querySelector("form");
+forma.addEventListener("submit", event => {
   event.preventDefault();
-  console.log("works")
+  let inputName = document.getElementById("name");
+  forma.append(inputName.value);
+  
 });
