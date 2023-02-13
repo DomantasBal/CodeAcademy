@@ -49,6 +49,17 @@ button {
     background: lightgrey;
 }
 
+button:hover, #movie-list:hover{
+    cursor: pointer;
+}
+
 #movie-list{
     margin-top:0px;
+    list-style-type:none;
+    font-size:2rem;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    padding: 30px;
 }
