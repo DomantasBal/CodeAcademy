@@ -2,7 +2,26 @@
 //               Constructor               //
 // //////////////////////////////////////////
 
+//ex Hotel
+function Hotel (name, rooms, bookedRooms){
+    this.name = name;
+    this.rooms = rooms;
+    this.bookedRooms = bookedRooms;
+    //Kiek kambariu yra laisvu
+    this.availableRooms = function (){
+        return this.rooms - bookedRooms
+    }
+}
 
+
+const guest = new Hotel ("jonas",3, 1);
+
+console.log(guest);
+
+
+
+
+//ex Book
 function Book (name, author, year){
     this.name = name;
     this.author = author;
