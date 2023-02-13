@@ -12,6 +12,12 @@ function Movie(name, year, director, budget, income) {
     this.getIntroduction = () => {
         return `${this.name} ${this.year} ${this.director}`;
     };
+    this.getProfit = () => {
+        return this.income - this.budget
+    }
+    this.addToList = () => {
+        // sukurs li elementa prides i sarasa
+    }
 }
 
 
