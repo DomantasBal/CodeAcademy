@@ -26,7 +26,6 @@ form.addEventListener("submit", (event)=>{
         deleteButton.addEventListener("click", () => {
         document.cookie = "max-age=0";
         document.body.style.backgroundColor = "";
-        deleteButton.remove(); 
         document.location.reload();
         });
 
