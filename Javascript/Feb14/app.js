@@ -7,8 +7,8 @@ const h2 = document.createElement("h2");
 const saveBtn = document.querySelector("#save");
 
 
-textIn.addEventListener("keyup", (event)=>{
-    event.preventDefault();
+textIn.addEventListener("keyup", ()=>{
+    // event.preventDefault();
     h2.textContent = textIn.value;
     document.body.append(h2)
 })
