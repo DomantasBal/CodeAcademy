@@ -5,7 +5,13 @@
 
 
 // Padaryti uzduoti "FOR EACH PRACTICE TIME" uzduoti
-let numbers = [5, 1, 7, 2, -9, 8, 2, 7, 9, 4, -5, 2, -6, 8, -4, 6];
+const numbers = [5,1,7,2,-9,8,2,7,9,4,-5,2,-6,8,-4,6];
+
+let result = numbers.forEach ((number, index)=> {
+    let p = document.createElement ("p");
+    p.append(`index nr: ${number} value: ${index}`)
+    document.body.append(p);
+}); 
 
 
 
@@ -13,7 +19,21 @@ let numbers = [5, 1, 7, 2, -9, 8, 2, 7, 9, 4, -5, 2, -6, 8, -4, 6];
 
 
 
+// function withNums(arr) {
+//   arr.forEach((number, index) => {
+//     console.log(number, index);
+//   });
+// }
 
+// withNums(numbers);
+
+
+
+
+
+// //////////////////////////////////////////
+//              Akordai uzduotis           //
+// //////////////////////////////////////////
 
 
 // let akordai = [ "D", "G", "C7", "F"]
@@ -36,7 +56,6 @@ let numbers = [5, 1, 7, 2, -9, 8, 2, 7, 9, 4, -5, 2, -6, 8, -4, 6];
     
 // }
 // console.log(akordai);
-
 
 
 
@@ -66,88 +85,88 @@ let numbers = [5, 1, 7, 2, -9, 8, 2, 7, 9, 4, -5, 2, -6, 8, -4, 6];
 // //////////////////////////////////////////
 
 
-// Create Input element
-let input = document.createElement ("input");
-input.type = "text";
+// // Create Input element
+// let input = document.createElement ("input");
+// input.type = "text";
 
-///////Buttons
+// ///////Buttons
 
-// BUTTON Prideti
-let buttonAdd = document.createElement("button");
-buttonAdd.innerText = "Prideti";
-buttonAdd.onclick = add;
+// // BUTTON Prideti
+// let buttonAdd = document.createElement("button");
+// buttonAdd.innerText = "Prideti";
+// buttonAdd.onclick = add;
 
-// BUTTON Prideti i gala
-let buttonPush = document.createElement("button");
-buttonPush.innerText = "Prideti i gala";
-buttonPush.onclick = push;
+// // BUTTON Prideti i gala
+// let buttonPush = document.createElement("button");
+// buttonPush.innerText = "Prideti i gala";
+// buttonPush.onclick = push;
 
-//BUTTON Isimti paskutini
-let buttonPop = document.createElement("button");
-buttonPop.innerText = "Isimti paskutini";
-buttonPop.onclick = pop;
+// //BUTTON Isimti paskutini
+// let buttonPop = document.createElement("button");
+// buttonPop.innerText = "Isimti paskutini";
+// buttonPop.onclick = pop;
 
-//BUTTON Isimti pirma
-let buttonLast = document.createElement("button");
-buttonLast.innerText = "Isimti pirma";
-buttonLast.onclick = last;
-
-
-/////////////////// CONTENT
-let p = document.createElement ("p");
-let array = ["Vienas", "Du", "Trys", "Keturi"];
+// //BUTTON Isimti pirma
+// let buttonLast = document.createElement("button");
+// buttonLast.innerText = "Isimti pirma";
+// buttonLast.onclick = last;
 
 
-function add(){
-    array.unshift(input.value);
-    p.textContent = array;
-    document.body.append(p);
-}
-
-function push(){
-    array.push(input.value);
-    p.textContent = array;
-    document.body.append(p);
-}
-
-function pop(){
-    array.pop(input.value);
-    p.textContent = array;
-    document.body.append(p);
-}
-
-function last(){
-    array.shift(input.value);
-    p.textContent = array;
-    document.body.append(p);
-}
-
-// Input Styles
-input.style.margin = "20px";
-input.style.height = "30px";
-input.style.borderRadius = "12px";
-
-let buttonsArray = [buttonAdd,buttonPush,buttonPop,buttonLast]
-
-// Set Styles for all buttons no repetition try
-for (let button of buttonsArray){
-        button.style.padding = "20px 60px";
-        button.style.margin = "10px";
-        button.style.borderRadius = "12px";
-}
-
-// Paragraph Styles
-p.style.color = "white";
-p.style.fontSize = "3rem";
-p.style.fontFamily = "Arial";
-p.style.background = "#303030";
-
-// DOM styling
-document.body.style.background = "#808080";
+// /////////////////// CONTENT
+// let p = document.createElement ("p");
+// let array = ["Vienas", "Du", "Trys", "Keturi"];
 
 
-/////////////////////Rodyti elementus
-document.body.append(input, buttonAdd,buttonPush,buttonPop,buttonLast)
+// function add(){
+//     array.unshift(input.value);
+//     p.textContent = array;
+//     document.body.append(p);
+// }
+
+// function push(){
+//     array.push(input.value);
+//     p.textContent = array;
+//     document.body.append(p);
+// }
+
+// function pop(){
+//     array.pop(input.value);
+//     p.textContent = array;
+//     document.body.append(p);
+// }
+
+// function last(){
+//     array.shift(input.value);
+//     p.textContent = array;
+//     document.body.append(p);
+// }
+
+// // Input Styles
+// input.style.margin = "20px";
+// input.style.height = "30px";
+// input.style.borderRadius = "12px";
+
+// let buttonsArray = [buttonAdd,buttonPush,buttonPop,buttonLast]
+
+// // Set Styles for all buttons no repetition try
+// for (let button of buttonsArray){
+//         button.style.padding = "20px 60px";
+//         button.style.margin = "10px";
+//         button.style.borderRadius = "12px";
+// }
+
+// // Paragraph Styles
+// p.style.color = "white";
+// p.style.fontSize = "3rem";
+// p.style.fontFamily = "Arial";
+// p.style.background = "#303030";
+
+// // DOM styling
+// document.body.style.background = "#808080";
+
+
+// /////////////////////Rodyti elementus
+// document.body.append(input, buttonAdd,buttonPush,buttonPop,buttonLast)
 
 
 
