@@ -1,20 +1,66 @@
+// SOME
+
+const budgets = [
+    {
+      name: "Rytis",
+      budget: 50,
+    },
+    {
+      name: "Saulė",
+      budget: 230,
+    },
+    {
+      name: "Paulius",
+      budget: 1500,
+    },
+    {
+      name: "Gytis",
+      budget: 92,
+    },
+    {
+      name: "Sandra",
+      budget: -11,
+    },
+  ];
+  
+  const names = budgets.map((person) => person.name);
+  const monies = budgets.map((person) => person.budget);
+
+//1
+let result = budgets.some((item)=>item.budget < 0)
+console.log(result);
+
+//2
+function belowHundred(arr) {
+    const filteredArr = arr.filter(item => item < 100);
+    if (filteredArr.length > 0) {
+      return filteredArr;
+    } else {
+      return "All numbers are above 100";
+    }
+  }
+
+  console.log(belowHundred(budgets));
+  
+
+
+
+
+
 // //////////////////////////////////////////
-//                  Arrays change          //
+//                  Array methods          //
 // //////////////////////////////////////////
 
 
 
 // Padaryti uzduoti "FOR EACH PRACTICE TIME" uzduoti
-const numbers = [5,1,7,2,-9,8,2,7,9,4,-5,2,-6,8,-4,6];
+// const numbers = [5,1,7,2,-9,8,2,7,9,4,-5,2,-6,8,-4,6];
 
-let result = numbers.forEach ((number, index)=> {
-    let p = document.createElement ("p");
-    p.append(`index nr: ${number} value: ${index}`)
-    document.body.append(p);
-}); 
-
-
-
+// let result = numbers.forEach ((number, index)=> {
+//     let p = document.createElement ("p");
+//     p.append(`index nr: ${number} value: ${index}`)
+//     document.body.append(p);
+// }); 
 
 
 
