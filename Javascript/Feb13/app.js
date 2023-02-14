@@ -1,6 +1,10 @@
 
 
+let numbers = [1,7,33,321,4,10,25]
 
+numbers.Number();
+
+console.log(numbers);
 
 
 
