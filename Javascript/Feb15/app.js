@@ -1,10 +1,14 @@
+// //////////////////////////////////////////
+//                  Flashcards             //
+// //////////////////////////////////////////
+
+
+//Su animacija turi buti kortele apsiversti
 
 
 // //////////////////////////////////////////
 //                  JSON                   //
 // //////////////////////////////////////////
-
-
 
 const textIn = document.querySelector("#textInput");
 const h2 = document.createElement("h2");
@@ -21,8 +25,7 @@ saveBtn.addEventListener("click", (event)=>{
     event.preventDefault();
     textArray.push(h2.textContent);
     localStorage.setItem("Input text: ", textArray);
-    console.log(textArray);
-    document.body.append(JSON.parse(localStorage.getItem("inputTextName")) || []);
+    // console.log(textArray);
 })
 
 
