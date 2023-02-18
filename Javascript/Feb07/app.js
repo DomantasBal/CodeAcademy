@@ -1,4 +1,4 @@
-// SOME
+// Some and Every
 
 const budgets = [
     {
@@ -23,8 +23,6 @@ const budgets = [
     },
   ];
   
-  const names = budgets.map((person) => person.name);
-  const monies = budgets.map((person) => person.budget);
 
 //1
 let result = budgets.some((item)=>item.budget < 0)
@@ -42,9 +40,6 @@ function belowHundred(arr) {
 
   console.log(belowHundred(budgets));
   
-
-
-
 
 
 
