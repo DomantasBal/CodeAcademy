@@ -30,17 +30,25 @@ for (let i = 0; i < transactions.length; i++) {
   }
 }
 
-console.log(maxDeposit); // 1300
+console.log(maxDeposit); 
 
 
 // 5. Kokia mažiausia nuimta suma? (pabandykite naudoti ternary operator)
 
 const minWithdrawal = Math.min(...transactions.filter(transaction => transaction < 0));
 
-console.log(minWithdrawal < 0 ? minWithdrawal : 0); // -300
+console.log(minWithdrawal < 0 ? minWithdrawal : 0); 
 
 
 // 6. Koks įnašų vidurkis, suapvalinti į mažesniąją pusę?
+const minDebit = Math.min(...transactions.filter((transaction) => transaction < 0));
+console.log(minDebit); // Output: -300
+
 
 // 7. Koks nuimtų pinigų vidurkis, suapvalinti į mažesniąją pusę?
+const trnT = transactions.filter((transaction) => transaction > 0);
+const transactionSum = transactionTimes.reduce((acc, current) => acc + current);
+const transactionAverage = Math.floor(transactionSum / transactionTimes.length);
+console.log(transactionAverage); 
+
 
