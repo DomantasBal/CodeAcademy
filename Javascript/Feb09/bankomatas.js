@@ -22,8 +22,23 @@ console.log(withdrawalTotal);
 
 // 4. Kokia didŽiausia pridėta suma? (pabandykite naudoti if else)
 
+let maxDeposit = 0;
+
+for (let i = 0; i < transactions.length; i++) {
+  if (transactions[i] > 0 && transactions[i] > maxDeposit) {
+    maxDeposit = transactions[i];
+  }
+}
+
+console.log(maxDeposit); // 1300
+
 
 // 5. Kokia mažiausia nuimta suma? (pabandykite naudoti ternary operator)
+
+const minWithdrawal = Math.min(...transactions.filter(transaction => transaction < 0));
+
+console.log(minWithdrawal < 0 ? minWithdrawal : 0); // -300
+
 
 // 6. Koks įnašų vidurkis, suapvalinti į mažesniąją pusę?
 
