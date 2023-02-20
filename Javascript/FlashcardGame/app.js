@@ -25,22 +25,15 @@ let card  = new makeCard (frontText,backText,cardNumber);
 
 //Prideda nauja korta i kortu rinkini - Array
 cards.push(card)
+localStorage.setItem("Cards", JSON.stringify(cards));
+
+
 
 // Number of flash cards - Desineje
 const originalCountText = document.querySelector("#numberOfCards");
 const newCountText = `Number of FlashCards: ${cards.length}`;
 originalCountText.textContent = newCountText;
 
-
-
-
-// console.log(cards.length);
-
 //Event listener END
 })
-
-
-
-
-
 
