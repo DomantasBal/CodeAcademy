@@ -5,19 +5,22 @@ const card = document.querySelector(".card");
 
 
 
-//Kai window objekte localstorage yra pakites vykdomas callbackas su gavimu kortos info.
 const retrieveCards = localStorage.getItem('Cards');
-
-//CARDS kur storinamas objektu array su visa info
+const retrieveNumberOfCards = localStorage.getItem('NumberOfCards');
 const cards = JSON.parse(retrieveCards);
+console.log(cards);
+
+    // Number of Cards - Desineje
+    const numberOfCards = document.querySelector("#numberOfCards");
+    numberOfCards.textContent = `Number of Flashcards: ${retrieveNumberOfCards}`;
 
 
 
 /////////// Click NEXT Functionality /////////// 
 let cardIndex = 0;
-card.addEventListener("click", () => {
-
-
+card.addEventListener("click", (event) => {
+        event.preventDefault();
+        console.log(cardIndex);
         frontCard.textContent = cards[cardIndex].front;
         backCard.textContent = cards[cardIndex].back;
         cardIndex++;
@@ -43,9 +46,7 @@ window.addEventListener("storage", () =>{
     backCard.textContent = cards[0].back;
     
     
-    // Number of Cards - Desineje
-    const numberOfCards = document.querySelector("#numberOfCards");
-    numberOfCards.textContent = cards.length;
+
     
     // What is Card Number?
     let cardNumberCount = 1;
