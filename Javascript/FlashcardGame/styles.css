@@ -1,0 +1,95 @@
+:root{
+    --btn-primary: #0d6efd;
+}
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+html{
+    background: #303030
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    color: white;
+    display: flex;
+}
+
+h1{
+    margin: 10px 0px 0px 10px;
+}
+
+form{
+    padding: 20px;
+}
+
+textarea{
+    background: #303030;
+    width: 100%;
+    margin: 5px 0px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.button{
+    display: inline-block;
+    width: 100%;
+    border-radius: 5px;
+    padding: 15px 0px;
+    margin: 10px 0px;
+    border: none;
+    font-size: 1rem;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.button:hover{
+    background:black;
+    cursor:pointer;
+}
+
+.btn-primary{
+    background: var(--btn-primary);
+    color: white;
+}
+
+/* RIGHT CONTAINER */
+
+.rightContainer{
+    padding: 60px 10px;
+}
+
+.rightContainer h2{
+    font-size: 2rem;
+}
+
+.rightContainer p{
+    max-width: 500px;
+    margin-top: 10px;
+}
+
+
+/* ============================== Review Cards PAGE =========================== */
+
+#frontOfCard{
+    border: solid 1px lightgray;
+    border-radius: 5px;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+}
+
+#cardNumber{
+    margin-bottom: 10px;
+}
+
+#addCard{
+    margin-top: 20px;
+}

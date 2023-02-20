@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./app.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- LEFT SIDE -->
+    <div class="leftContainer">
+      <h1>FlashCards</h1>
+      <form action="">
+        <div>
+          <label for="frontCardText">Front of Card (Term or Question)</label>
+          <textarea name="" id="frontCardText" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+          <label for="backCardText"
+            >Backof the Card (Definition or Answer)</label
+          >
+          <textarea name="" id="backCardText" cols="30" rows="10"></textarea>
+        </div>
+        <button id="saveBtn" class="button btn-primary" type="submit">
+          Save Card
+        </button>
+        <a href="./ReviewCards.html" class="button btn-primary">Review Cards</a>
+      </form>
+
+      <!-- RIGHT SIDE -->
+    </div>
+    <div class="rightContainer">
+      <h2>Make a Flash Card</h2>
+      <p>
+        Let's make a flash card. On the front of the flash card put the terms or
+        questions you're trying to remmber and the definition or answer on the
+        back.
+      </p>
+      <p>Number of FlashCards: 2</p>
+    </div>
+  </body>
+</html>
