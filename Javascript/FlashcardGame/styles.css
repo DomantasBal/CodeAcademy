@@ -86,6 +86,10 @@ textarea{
     padding: 70px;
 }
 
+#backOfCard{
+    display:none;
+}
+
 #cardNumber{
     margin-bottom: 10px;
 }
