@@ -4,15 +4,14 @@ const backCard = document.querySelector("#backOfCard");
 const card = document.querySelector(".card");
 
 
-
 const retrieveCards = localStorage.getItem('Cards');
 const retrieveNumberOfCards = localStorage.getItem('NumberOfCards');
 const cards = JSON.parse(retrieveCards);
-console.log(cards);
 
-    // Number of Cards - Desineje
-    const numberOfCards = document.querySelector("#numberOfCards");
-    numberOfCards.textContent = `Number of Flashcards: ${retrieveNumberOfCards}`;
+
+// Number of Cards - Desineje
+const numberOfCards = document.querySelector("#numberOfCards");
+numberOfCards.textContent = `Number of Flashcards: ${cards.length}`;
 
 
 
