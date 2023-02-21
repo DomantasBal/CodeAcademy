@@ -4,8 +4,8 @@ const backCardText = document.querySelector("#backCardText");
 const reviewCards = document.querySelector("#reviewCards");
 
 let cards = [];
-const retrieveCards = localStorage.getItem('Cards');
-cards = JSON.parse(retrieveCards);
+// const retrieveCards = localStorage.getItem('Cards');
+// cards = JSON.parse(retrieveCards);
 
 
 
