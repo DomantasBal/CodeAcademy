@@ -2,21 +2,21 @@
 //                  Promises               //
 // //////////////////////////////////////////
 
-// function makePizza(toppings) {
-//     return new Promise((resolve, reject) => {
-//       if (toppings && toppings.length > 0) {
-//         const pizza = `Pica su: ${toppings.join(", ")}`;
-//         resolve(pizza);
-//       } else {
-//         reject("Nurodykite bent viena ingredienta.");
-//       }
-//     });
-//   }
+function makePizza(toppings) {
+    return new Promise((resolve, reject) => {
+      if (toppings && toppings.length > 0) {
+        const pizza = `Pica su: ${toppings.join(", ")}`;
+        resolve(pizza);
+      } else {
+        reject("Nurodykite bent viena ingredienta.");
+      }
+    });
+  }
   
-//   makePizza(["pomidorai", "grybai"])
+  makePizza(["pomidorai", "grybai"])
 
-//     .then((result) => console.log(result))
-//     .catch((error) => console.log(error));
+    .then((result) => console.log(result))
+    .catch((error) => console.log(error));
     
     
 //////////////////////////////////////////////////
