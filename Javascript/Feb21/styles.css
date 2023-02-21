@@ -1,4 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
 body{
+    background: #303030;
+    color: white;
+}
+
+input, label{
+    display: block;
+    margin: 5px;
+}
+
+input{
+    padding: 10px 30px;
+}
+
+button {
+    margin: 10px 5px;
+    padding: 10px 30px;
+
+}
+
+form{
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FIRST TASK STYLING */
+/* body{
     display: flex;
 }
 img{
@@ -6,4 +51,4 @@ img{
     height:200px;
     object-fit:cover;
     margin: 10px;
-}
+} */
