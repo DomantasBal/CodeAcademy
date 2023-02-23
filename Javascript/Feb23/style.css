@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+    width: 300px;
+}
+
+label, input, textarea, button{
+    display: block;
+    margin: 10px;
+    width: 100%;
+}
+
+button{
+    padding: 15px 40px;
+    background: #3B71CA;
+    border-radius: 3px;
+    color: white;
+    outline: 0;
+    border:none;
+}
+
+#output{
+    width: 80%;
+}
+
+#postCard{
+    background: rgb(222, 222, 222);
+    padding: 20px 30px;
+    border: solid 1px grey;
+    border-radius: 6px;
+    width: 300px;
+}
+
+
+
+#postCard h1{
+    font-weight: bold;
+}
+
+#postCard a {
+    color: blue;
+    margin: 0px 10px;
+}
+
+
