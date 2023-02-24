@@ -46,6 +46,7 @@ const postTemplate = (data) => {
         </div>
     `
 }
+
 const handlePostEdit = (id) => {
     editPostId = id
     const titleInput = document.querySelector('input[name=title]')
