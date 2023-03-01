@@ -15,19 +15,6 @@ const getData = (url) => {
     .catch(err => console.log(err))
 }
 
-// DELETE METHOD
-const deletePost = (id) => {
-    const url = API_ENDPOINTS.delete(id)
-    return fetch(url, {
-        method: 'DELETE',
-    })
-    .then(response => {
-        response.status === 204 &&
-        document.getElementById(id).remove()
-    })
-    .catch(err => console.log(err))
-}
-
 // POST METHOD
 const postData = (url, data) => {
     return fetch(url, {
@@ -53,6 +40,7 @@ const postTemplate = (data) => {
         </div>
     `
 }
+
 
 
 // EDIT POST
