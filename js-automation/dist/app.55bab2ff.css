@@ -8074,4 +8074,12 @@ body {
   height: 30px;
 }
 
+.cards-container {
+  margin: 10 0px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+
 /*# sourceMappingURL=/app.55bab2ff.css.map */
