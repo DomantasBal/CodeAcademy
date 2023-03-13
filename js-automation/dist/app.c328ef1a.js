@@ -130,11 +130,9 @@ var _get=function t(e,i,n){null===e&&(e=Function.prototype);var s=Object.getOwnP
 "use strict";
 
 require("materialize-css/dist/js/materialize.min.js");
-// const test = 'test'
-
 document.addEventListener('DOMContentLoaded', function () {
   var elems = document.querySelectorAll('.parallax');
-  var instances = M.Parallax.init(elems, options);
+  var instances = M.Parallax.init(elems);
 });
 },{"materialize-css/dist/js/materialize.min.js":"node_modules/materialize-css/dist/js/materialize.min.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -161,7 +159,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53252" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65273" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

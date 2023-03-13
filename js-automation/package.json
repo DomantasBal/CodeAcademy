@@ -9,7 +9,7 @@
     "sass": "^1.58.3"
   },
   "scripts": {
-    "dev": "parcel app.html",
+    "dev": "parcel serve app.html",
     "build": "build app.html"
   },
   "dependencies": {
