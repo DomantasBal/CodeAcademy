@@ -10769,5 +10769,19 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+header nav {
+  background: #6F2BF4;
+}
+
+body {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+section {
+  padding: 50px 50px;
+}
 
 /*# sourceMappingURL=/app.55bab2ff.css.map */

@@ -1,1 +1,20 @@
 @import '~bootstrap/scss/bootstrap';
+
+
+
+header{
+    nav{
+        background: #6F2BF4;
+    }
+}
+
+body{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+section{
+    padding: 50px 50px;
+}

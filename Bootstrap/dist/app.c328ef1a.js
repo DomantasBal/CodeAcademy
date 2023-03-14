@@ -2701,6 +2701,11 @@ var define;
 "use strict";
 
 require("bootstrap/dist/js/bootstrap.min.js");
+var myModal = document.getElementById('myModal');
+var myInput = document.getElementById('myInput');
+myModal.addEventListener('shown.bs.modal', function () {
+  myInput.focus();
+});
 },{"bootstrap/dist/js/bootstrap.min.js":"node_modules/bootstrap/dist/js/bootstrap.min.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -2726,7 +2731,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60080" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60258" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
