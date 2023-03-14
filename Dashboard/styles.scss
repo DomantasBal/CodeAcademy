@@ -38,6 +38,7 @@ header{
 }
 
 header{
+    background: red;
     .logo-container{
         background: var(--primary-color);
         width: 100%;
@@ -52,6 +53,7 @@ header{
     }
 
     .search-container{
+
         background: var(--secondary-color);
         width: 100%;
 
