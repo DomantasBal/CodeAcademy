@@ -10938,5 +10938,62 @@ body #communicate .testemonials .card .testemonials__text {
   margin-top: 20px;
   color: #6c757d;
 }
+body #contact {
+  background: url(/contact-bg.c67e6275.webp);
+  padding: 60px 0px;
+}
+body #contact #overlay {
+  background: #4286f4;
+  opacity: 0.6;
+  position: absolute;
+  height: 1000px;
+  z-index: 4;
+}
+body #contact .contact__title {
+  text-align: center;
+  padding: 50px;
+  color: white;
+  font-size: 1.8rem;
+}
+body #contact form {
+  padding: 50px;
+  background: white;
+  margin: 15px;
+}
+body #contact form input {
+  border-radius: 0px;
+  padding: 10px 10px;
+}
+body #contact form input:focus {
+  border-width: 1px;
+  box-shadow: 0px 0px 0px 0px;
+}
+body #contact form textarea {
+  border-radius: 0px;
+}
+body #contact form textarea:focus {
+  border-width: 1px;
+  box-shadow: 0px 0px 0px 0px;
+  border-radius: 0px;
+}
+body #contact form h3, body #contact form .h3 {
+  margin-bottom: 50px;
+}
+body #contact form button {
+  padding: 12px 60px;
+  border-radius: 24px;
+  border: none;
+  box-shadow: 0 4px 20px -5px rgba(66, 133, 244, 0.4);
+}
+body #footer-socials {
+  color: #4285f4;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  gap: 35px;
+}
+body i {
+  cursor: pointer;
+}
 
 /*# sourceMappingURL=/app.55bab2ff.css.map */
