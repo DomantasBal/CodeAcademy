@@ -61,6 +61,12 @@ body {
     flex-direction: column;
     align-items: center;
 
+    .bottom-img {
+      width: 100%;
+      padding: 20px;
+      margin-top: 150px;
+    }
+
     .features__title {
       font-size: 1.875rem;
       font-weight: 700;
@@ -88,6 +94,7 @@ body {
         color: white;
         background: #4285f4;
         transform: translateY(-10px);
+        cursor: pointer;
 
         .card__icon {
           background: white;
@@ -145,6 +152,57 @@ body {
           color: #4285f4;
           margin-bottom: 30px;
           text-decoration: none;
+        }
+      }
+    }
+  }
+
+  // COMMUNICATE SECTION
+  #communicate {
+    padding: 5px 10px;
+    h3 {
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+
+    .communicate__text {
+      padding: 10px;
+      color: #6c757d;
+    }
+
+    .testemonials {
+      // Testemonial card
+      .card {
+        border-left: #4285f4 solid 10px;
+        border-radius: 6px;
+        box-shadow: 0px 0px 10px lightgrey;
+        padding: 20px;
+
+        .testemonials__info {
+          display: flex;
+          align-items: center;
+        }
+
+        .testemonials__profile {
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+        }
+        .testemonials__name {
+          font-size: 1rem;
+        }
+
+        .testemonials__person-info {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          margin: 0px 15px;
+          line-height: 12px;
+        }
+
+        .testemonials__text {
+          margin-top: 20px;
+          color: #6c757d;
         }
       }
     }
