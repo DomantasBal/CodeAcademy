@@ -10789,6 +10789,12 @@ body {
 body #hero {
   padding: 20px;
 }
+@media screen and (min-width: 992px) {
+  body #hero {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+}
 body #hero .hero__img {
   width: 100%;
   margin-top: 90px;
@@ -10819,11 +10825,6 @@ body #features {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-body #features .bottom-img {
-  width: 100%;
-  padding: 20px;
-  margin-top: 150px;
 }
 body #features .features__title {
   font-size: 1.875rem;
@@ -10901,9 +10902,19 @@ body #features .cards-container .card .card__link {
 body #communicate {
   padding: 5px 10px;
 }
+body #communicate .top-img {
+  width: 100%;
+  padding: 20px;
+  margin-top: 130px;
+}
 body #communicate h3, body #communicate .h3 {
   font-size: 2.5rem;
   font-weight: 700;
+}
+@media screen and (min-width: 964px) {
+  body #communicate h3, body #communicate .h3 {
+    margin-top: 100px;
+  }
 }
 body #communicate .communicate__text {
   padding: 10px;
@@ -10952,8 +10963,7 @@ body #contact #overlay {
 body #contact .contact__title {
   text-align: center;
   padding: 50px;
-  color: white;
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 body #contact form {
   padding: 50px;

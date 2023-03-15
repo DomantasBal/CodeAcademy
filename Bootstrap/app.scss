@@ -23,6 +23,10 @@ body {
 
   //   HERO SECTION
   #hero {
+    @media screen and (min-width: 992px) {
+      margin-top: 100px;
+      margin-bottom: 100px;
+    }
     padding: 20px;
     .hero__img {
       width: 100%;
@@ -61,12 +65,6 @@ body {
     flex-direction: column;
     align-items: center;
 
-    .bottom-img {
-      width: 100%;
-      padding: 20px;
-      margin-top: 150px;
-    }
-
     .features__title {
       font-size: 1.875rem;
       font-weight: 700;
@@ -87,6 +85,8 @@ body {
       align-items: center;
       justify-content: center;
       width: 100%;
+      // min-width: 300px;
+      // flex-wrap: wrap;
       padding: 15px;
 
       //   HOVE CARD STUFF
@@ -159,8 +159,16 @@ body {
 
   // COMMUNICATE SECTION
   #communicate {
+    .top-img {
+      width: 100%;
+      padding: 20px;
+      margin-top: 130px;
+    }
     padding: 5px 10px;
     h3 {
+      @media screen and (min-width: 964px) {
+        margin-top: 100px;
+      }
       font-size: 2.5rem;
       font-weight: 700;
     }
@@ -223,8 +231,7 @@ body {
     .contact__title {
       text-align: center;
       padding: 50px;
-      color: white;
-      font-size: 1.8rem;
+      font-size: 2rem;
     }
     form {
       padding: 50px;
