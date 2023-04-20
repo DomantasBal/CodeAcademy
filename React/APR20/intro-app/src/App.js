@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Counter />
+        <Counter step={1} />
       </header>
     </div>
   );
