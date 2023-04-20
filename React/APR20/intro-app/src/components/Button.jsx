@@ -1,7 +1,9 @@
+import "../components/Button.scss"
+
 function Button(props) {
     return (
       <>
-        <button onClick={props.mathAction}>{props.symbol}</button>
+        <button className="btn"  onClick={props.mathAction}>{props.symbol}</button>
       </>
     );
   }
