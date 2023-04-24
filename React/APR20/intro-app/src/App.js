@@ -1,5 +1,5 @@
-import "./App.scss";
-import Counter from "./components/Counter";
+import './App.scss'
+import Counter from './components/Counter'
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
         <Counter step={1} />
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
