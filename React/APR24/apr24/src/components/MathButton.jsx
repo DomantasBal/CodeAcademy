@@ -1,13 +1,15 @@
 import React from "react";
 
-function MathButton({ text, action, numbers, onClick }) {
+function MathButton(props) {
   const handleClick = () => {
-    onClick(action(numbers[0], numbers[1]));
+    props.onClick(props.action(props.numbers[0], props.numbers[1]));
   };
 
   return (
     <div>
-      <button onClick={handleClick}>Show {numbers[0]} {text} {numbers[1]} answer</button>
+      <button onClick={handleClick}>
+        Show {props.numbers[0]} {props.text} {props.numbers[1]} answer
+      </button>
     </div>
   );
 }
