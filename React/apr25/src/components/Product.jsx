@@ -7,7 +7,8 @@ function Product (props){
             <p>{props.category}</p>
             <h1>{props.title}</h1>
             <p>{props.stars}</p>
-            <p><strong>{props.price}$</strong></p>
+            <p className="product__price"><strong>{props.price} $</strong></p>
+            <button className="btn">BUY</button>
         </div>
     )
 }

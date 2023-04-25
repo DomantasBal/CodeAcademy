@@ -9,47 +9,47 @@ function App() {
       category: "Canvases",
       title: "OFF-WHITE AIR JORDAN 1 CANVAS",
       stars: "☆☆☆☆☆",
-      price: 443,
+      price: 32,
     },
 
     {
-      category: "Canvases",
-      title: "OFF 1 CANVAS",
+      category: "Posters",
+      title: "YEEZY BOOST 350 V2 FROZEN YELLOW POSTER",
       stars: "☆☆☆☆☆",
-      price: 1123,
+      price: 16,
     },
 
     {
-      category: "Canvases",
-      title: "OFF-BLACK AIR 1 CANVAS",
+      category: "Stickers",
+      title: "YEEZY 350 V2 ZEBRA STICKER",
       stars: "☆☆☆☆☆",
-      price: 278,
+      price: 5,
     },
 
     {
-      category: "Canvases",
-      title: " JORDAN 1 CANVAS",
+      category: "Jordans",
+      title: " AIR JORDAN 4 RED SUEDE POSTER",
       stars: "☆☆☆☆☆",
-      price: 474,
+      price: 16,
     },
 
     {
-      category: "Canvases",
-      title: "OFF-WHITE AIR JORDAN 1 CANVAS",
+      category: "Balenciaga",
+      title: "BALENCIAGA TRIPLE S POSTER",
       stars: "☆☆☆",
-      price: 11,
+      price: 32,
     },
 
     {
-      category: "Canvases",
-      title: "OFF-WHITE AIR JORDAN 1 CANVAS",
+      category: "Nike",
+      title: "NIKE BLAZER MID SACAI POSTER",
       stars: "☆☆☆",
       price: 22,
     },
 
     {
-      category: "Canvases",
-      title: "OFF-WHITE AIR JORDAN 1 CANVAS",
+      category: "Artists",
+      title: "LIL PEEP POSTER",
       stars: "☆☆☆☆",
       price: 44,
     },
@@ -71,7 +71,7 @@ function App() {
   return (
     <div className="App">
       <div>
-        <h1>Products</h1>
+        <h1>BEST SELLERS</h1>
       </div>
 
       <div className="productList">
