@@ -70,15 +70,21 @@ function App() {
   ];
   return (
     <div className="App">
-      {data.map((item, index) => (
-        <Product
-          key={index}
-          category={item.category}
-          title={item.title}
-          stars={item.stars}
-          price={item.price}
-        />
-      ))}
+      <div>
+        <h1>Products</h1>
+      </div>
+
+      <div className="productList">
+        {data.map((item, index) => (
+          <Product
+            key={index}
+            category={item.category}
+            title={item.title}
+            stars={item.stars}
+            price={item.price}
+          />
+        ))}
+      </div>
     </div>
   );
 }
