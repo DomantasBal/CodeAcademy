@@ -1,7 +1,23 @@
 .services__tab {
-  width: 100px;
-  height: 100px;
-  color: white;
+  width: 200px;
+  height: 200px;
+  color: black;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.services__tab:hover {
   background: #ff6433;
+  color: white;
+}
+
+.services__tab img {
+  width: 32px;
 }

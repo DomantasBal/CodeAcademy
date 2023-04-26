@@ -1,11 +1,22 @@
 import Tab from "./Tab"
 import "./Services.css"
 
+// IMAGES
+import car from "../../assets/images/car.png"
+
+// ICONS
+import carDiagnosticIcon from "../../assets/icons/car-diagnostic.svg"
+import engineRepairIcon from "../../assets/icons/engine-repair.svg"
+import carIcon from "../../assets/icons/car-icon.svg"
+import batteryIcon from "../../assets/icons/battery.svg"
+
+
+
 function Services() {
   return (
     <section id="services">
       <div className="services-left">
-        <img src="#" alt="Car" />
+        <img src={car} alt="Car" />
         <h2>Auto Diagnostics</h2>
         <p>
           Through True Rich Attended does no end it his mother since favourable
@@ -16,11 +27,13 @@ function Services() {
       </div>
 
       <div className="services-right">
-        <Tab icon="icon" desc="Auto Dignostics" />
-        <Tab icon="icon" desc="Auto Dignostics" />
-        <Tab icon="icon" desc="Auto Dignostics" />
-        <Tab icon="icon" desc="Auto Dignostics" />
-        <Tab icon="icon" desc="Auto Dignostics" />
+
+        <Tab icon={carDiagnosticIcon} desc="Auto Dignostics" />
+        <Tab icon={engineRepairIcon} desc="Auto Dignostics" />
+        <Tab icon={carIcon} desc="Auto Dignostics" />
+        <Tab icon={batteryIcon} desc="Auto Dignostics" />
+        <Tab icon={carDiagnosticIcon} desc="Auto Dignostics" />
+        <Tab icon={engineRepairIcon} desc="Auto Dignostics" />
       </div>
     </section>
   );
