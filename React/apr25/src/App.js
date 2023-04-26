@@ -1,5 +1,4 @@
 import ReactPlayer from "react-player/youtube";
-
 import Product from "./components/Product";
 import "./App.css";
 
