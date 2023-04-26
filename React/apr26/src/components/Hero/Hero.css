@@ -1,0 +1,32 @@
+.hero-slide {
+  display: flex;
+  margin: 200px;
+  min-width: 820px;
+}
+
+.hero-left {
+  width: 40%;
+  height: auto;
+}
+
+.hero-left img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-right {
+  width: 60%;
+  background: #1e1b1b;
+  color: white;
+  text-align: left;
+  padding: 96px;
+}
+
+.hero-right p {
+  margin-top: 16px;
+  width: 541px;
+}
+
+.hero-right button {
+  margin-top: 48px;
+}
