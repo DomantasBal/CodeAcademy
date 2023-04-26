@@ -1,5 +1,11 @@
+import ReactPlayer from "react-player/youtube";
+
 import Product from "./components/Product";
 import "./App.css";
+
+const MyVideo = () => {
+  return <ReactPlayer url="https://www.youtube.com/watch?v=ysz5S6PUM-U" />;
+};
 
 function App() {
   // const input = "12312";
@@ -85,6 +91,8 @@ function App() {
           />
         ))}
       </div>
+
+      <MyVideo />
     </div>
   );
 }
