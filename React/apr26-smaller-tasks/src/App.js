@@ -9,6 +9,10 @@ import Header from "./components2/Header";
 import SignUp from "./components2/SignUp";
 import Topbar from "./components2/Topbar";
 
+// TASK 3
+
+import MoodChecker from "./components3/MoodChecker";
+
 import "./App.css";
 
 const colorSettings = {
@@ -33,12 +37,17 @@ function App() {
     //   </div>
     // </div>
 
+    // =========== TASK 2 =========
+    // <div className="App">
+    //   <Topbar background={colorSettings.Topbar} />
+    //   <Header background={colorSettings.Header} />
+    //   <Content background={colorSettings.Content} />
+    //   <SignUp background={colorSettings.SignUp} />
+    //   <Feature background={colorSettings.Feature} />
+    // </div>
+
     <div className="App">
-      <Topbar background={colorSettings.Topbar} />
-      <Header background={colorSettings.Header} />
-      <Content background={colorSettings.Content} />
-      <SignUp background={colorSettings.SignUp} />
-      <Feature background={colorSettings.Feature} />
+      <MoodChecker />
     </div>
   );
 }
