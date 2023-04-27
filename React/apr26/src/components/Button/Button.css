@@ -6,8 +6,12 @@
   border: none;
   outline: 0;
   cursor: pointer;
+  transition: 0.5s;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .btn-primary:hover {
-  background: #e75b30;
+  background: white;
+  color: black;
 }
