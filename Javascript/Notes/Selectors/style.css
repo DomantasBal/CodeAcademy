@@ -1,0 +1,14 @@
+button{
+    /* Trying different ways than FLEX */
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    padding: 30px 60px;
+    border-radius: 12px;
+    box-shadow: 10px 5px 40px;
+    font-size: 32px;
+    background: blue;
+    color: white;
+}
